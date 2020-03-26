@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+    <html lang="en">
+        <head>
+           <meta charset="UTF-8">
+           <meta name="description" content="welcom to my website">
+           <link rel="stylesheet" type="text/css" href="css/style1.css">
+           <link rel="icon" href="res/go.jpg">
+           <title>create an account</title>   
+            <script src="js/main.js"></script>
+           <style>
+              body {
+                text-align: center;
+                background-image: url('res/body.jpg');
+              }
+           </style>
+        </head>
+      <body>
+        <div>
+            <fieldset style="padding: 30px;">
+              <legend style="font-size:40px;font-family:roman;color:rgba(243, 6, 105, 0.637)">Create an  Account</legend>
+              <form  name="register" action="post.php" class="form1">  
+                      <label> Name:</label>
+                      <br>
+                      <input type="text" name="first name" value="" placeholder=" First" style="width:20%;">
+                      <input type="text" name="name" value="" placeholder="Last" style="width:20%;">
+                      <br>
+                      <label>Adresse e-mail:</label>
+                      <br>
+                      <input  type="text" name="Adresse e-mail" value="" placeholder="name@example.com">
+                     <br>
+                     <label>Password:</label>
+                     <BR>
+                     <input type="password" name="password" placeholder="your password">
+                     <br>
+                     <label>Birthday:</label>
+                     <br>
+                     <select name="month" style="width:20%;">
+                         <option>January</option>
+                         <option>February</option>
+                         <option>March</option>
+                         <option>April</option>
+                         <option>May</option>
+                         <option>June</option>
+                         <option>July</option>
+                         <option>August</option>
+                         <option>September</option>
+                         <option>October</option>
+                         <option>November</option>
+                         <option>November</option>
+                     </select>
+                     <input type="number" name="day" placeholder="day"style="width:20%;">
+                     <input type="number" name="year" placeholder="year"style="width:20%;">
+                     <br>
+                     <label>Mobile Phone:</label>
+                     <br>
+                     <input type="text" name="number Phone"  placeholder="your Mobile Phone" style="width:20%;">
+                     <br>
+                     <label>Genre:</label>
+                     <br>
+                     <div style="font-size:25px ; color:#000">
+                     <input type="radio" name="sex"value="male">male
+                     <input type="radio" name="sex"value="female" >female
+                     </div>
+                     <br>
+                     <input type="submit" value="Sing Up" >
+               </form>
+            </fieldset>
+           </div>
+
+      </body>
+    </html>

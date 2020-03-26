@@ -1,0 +1,164 @@
+body
+{
+    margin:0;
+    background: linear-gradient(to  bottom,rgb(144, 155, 152),rgb(221, 231, 221));
+
+}
+.paragraph
+{
+    font-family:fantasy;
+    font-size: 50px;
+    text-align:center;
+    margin:0px;
+    color:dimgrey;
+}
+
+
+                                    /*style for form name="register"*/ 
+input[type="button"] 
+{
+ 
+width:120px;
+height:30px;
+cursor: pointer;
+}
+input[name="bold"]
+{
+    width:100px;
+    margin:0px 0px 0px 315px;
+    cursor: pointer;
+}
+select[id="size"]
+{
+ width:75px;
+ height:34px;
+}
+select[id="police"]
+{
+    width:115px;
+    height:33px; 
+}
+fieldset
+{
+    text-align: center;
+    font:30px/40px cursive;
+}
+                                       /*  style for image in courses.html */
+                                                     /*parti one*/
+.courses1 {
+    width: 360px;
+    height: 250px;
+    margin-left: 50px;
+    display: inline-block;
+    background-image: url(../res/go.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.btnCourses1,.btnCourses2,.btnCourses3,.btnCourses4,.btnCourses5,.btnCourses6,.btnCourses7,.btnCourses8,.btnCourses9
+ {
+    margin-top:120px;
+    margin-left: 80px;
+    display: none ; 
+    cursor: pointer;
+}
+.courses1:hover{
+    opacity:0.5; 
+}
+.courses2{
+    width: 360px;
+    height:250px;
+    margin-left:50px;
+    display: inline-block;
+    background-image: url(../res/gomy.jpg);
+    background-size:cover;
+    overflow:hidden;
+}
+.courses2:hover{
+    opacity:0.5; 
+}
+.courses3{
+    width: 360px;
+    height:315px;
+    margin-left:50px;
+    display: inline-block;
+    background-image: url(../res/gomyc.jpg);
+    background-size:cover;
+    overflow:hidden;
+}
+.courses3:hover{
+    opacity:0.5; 
+}
+                                                               /*parti two*/ 
+.courses4{
+    width: 360px;
+    height:315px;
+    margin-left:50px;
+    display: inline-block;
+    background-image: url(../res/gomycode.jpg);
+    background-size:cover;
+    overflow:hidden;
+}
+.courses4:hover{
+    opacity:0.5; 
+}
+.courses5{
+    width: 360px;
+    height:315px;
+    margin-left:50px;
+    display: inline-block;
+    background-image: url(../res/tunis.jpg);
+    background-size:cover;
+    overflow:hidden;
+}
+.courses5:hover{
+    opacity:0.5; 
+}
+.courses6{
+    width: 360px;
+    height:315px;
+    margin-left:50px;
+    display: inline-block;
+    background-image: url(../res/gomycod.jpg);
+    background-size:cover;
+    overflow:hidden;
+}
+.courses6:hover{
+    opacity:0.5; 
+}
+                                                               /*parti three*/ 
+.courses7{
+    width: 360px;
+    height:315px;
+    margin-left:50px;
+    display: inline-block;
+    background-image: url(../res/gomyco.jpg);
+    background-size:cover;
+    overflow:hidden;
+}
+.courses7:hover{
+    opacity:0.5; 
+}
+.courses8{
+    width: 360px;
+    height:315px;
+    margin-left:50px;
+    display: inline-block;
+    background-image: url(../res/demoday.jpg);
+    background-size:cover;
+    overflow:hidden;
+}
+.courses8:hover{
+    opacity:0.5; 
+}
+.courses9{
+    width: 360px;
+    height:315px;
+    margin-left:50px;
+    display: inline-block;
+    background-image: url(../res/IA.jpg);
+    background-size:cover;
+    overflow:hidden;
+}
+.courses9:hover{
+    opacity:0.5; 
+}
